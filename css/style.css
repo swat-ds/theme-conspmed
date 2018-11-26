@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Codystar");
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -1672,6 +1673,15 @@ footer {
   display: inline; }
 
 /* @end */
+#site-title, h1, h2, h3, h4, h5 {
+  font-family: 'Codystar', cursive; }
+
+a:link {
+  color: #000; }
+
+a:hover, #primary-nav a:hover, #primary-nav a:focus, #primary-nav li.active > a {
+  color: #cc3d38; }
+
 @media screen and (max-width: 768px) {
   /* @group ----- Generic HTML elements ----- */
   input[type=text], input[type=password], textarea {

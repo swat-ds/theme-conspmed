@@ -1,0 +1,14 @@
+$primary-color: #000;
+$contrast-color: lighten(#A62F2B,10%);
+
+#site-title,h1,h2,h3,h4,h5 {
+    font-family: 'Codystar', cursive; 
+}
+
+a:link {
+    color: $primary-color;
+}
+
+a:hover, #primary-nav a:hover, #primary-nav a:focus, #primary-nav li.active > a {
+    color: $contrast-color;
+}
